@@ -1,0 +1,35 @@
+.container {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container h1 {
+  color: #1565c0;
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.container p {
+  max-width: 750px;
+  margin: 0 auto 35px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.botao {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #1565c0;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #0d47a1;
+  transform: translateY(-2px);
+}
